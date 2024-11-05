@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+body {
+	/*background-image: url('/image/Akasa-Air-1-scale.jpg' );
+	*/background-size: cover;
+	background-position: center up;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+	border-color: #ccc;
+}
+
+.form-control:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
