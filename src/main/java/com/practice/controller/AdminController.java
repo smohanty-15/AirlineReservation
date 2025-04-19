@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import com.techm.entity.Admin;
-import com.techm.entity.Booking;
-import com.techm.entity.Flight;
-import com.techm.entity.FlightStatus;
-import com.techm.service.AdminService;
-import com.techm.service.BookingService;
-import com.techm.service.FlightService;
+import com.practice.entity.Admin;
+import com.practice.entity.Booking;
+import com.practice.entity.Flight;
+import com.practice.entity.FlightStatus;
+import com.practice.service.AdminService;
+import com.practice.service.BookingService;
+import com.practice.service.FlightService;
 import jakarta.servlet.http.HttpSession;
 
 @Controller

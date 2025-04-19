@@ -1,7 +1,7 @@
 package com.practice.service;
 
 
-import com.techm.entity.User;
+import com.practice.entity.User;
 
 public interface UserService {
 	public Boolean registerUser(User user);

@@ -2,10 +2,10 @@ package com.practice.service;
 
 import java.util.List;
 
-import com.techm.entity.Booking;
-import com.techm.entity.Flight;
-import com.techm.entity.FlightStatus;
-import com.techm.entity.User;
+import com.practice.entity.Booking;
+import com.practice.entity.Flight;
+import com.practice.entity.FlightStatus;
+import com.practice.entity.User;
 
 import jakarta.servlet.http.HttpSession;
 

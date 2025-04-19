@@ -2,7 +2,7 @@ package com.practice.service;
 
 import java.util.List;
 
-import com.techm.entity.Flight;
+import com.practice.entity.Flight;
 
 public interface FlightService {
 	List<Flight> getAllFlights();

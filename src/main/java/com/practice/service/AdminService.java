@@ -1,6 +1,6 @@
 package com.practice.service;
 
-import com.techm.entity.Admin;
+import com.practice.entity.Admin;
 
 public interface AdminService {
 	public void registerAdmin(Admin admin);

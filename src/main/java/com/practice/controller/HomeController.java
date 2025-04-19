@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.techm.entity.Booking;
-import com.techm.entity.Flight;
-import com.techm.service.BookingService;
-import com.techm.service.FlightService;
+import com.practice.entity.Booking;
+import com.practice.entity.Flight;
+import com.practice.service.BookingService;
+import com.practice.service.FlightService;
 
 import jakarta.servlet.http.HttpSession;
 

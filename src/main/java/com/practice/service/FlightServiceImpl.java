@@ -6,10 +6,10 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.techm.entity.Flight;
-import com.techm.entity.FlightStatus;
+import com.practice.entity.Flight;
+import com.practice.entity.FlightStatus;
 
-import com.techm.repository.FlightRepository;
+import com.practice.repository.FlightRepository;
 
 @Service
 public class FlightServiceImpl implements FlightService {

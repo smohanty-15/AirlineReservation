@@ -7,12 +7,12 @@ import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.techm.entity.Booking;
-import com.techm.entity.BookingStatus;
-import com.techm.entity.Flight;
-import com.techm.entity.FlightStatus;
-import com.techm.entity.User;
-import com.techm.repository.BookingRepository;
+import com.practice.entity.Booking;
+import com.practice.entity.BookingStatus;
+import com.practice.entity.Flight;
+import com.practice.entity.FlightStatus;
+import com.practice.entity.User;
+import com.practice.repository.BookingRepository;
 
 import jakarta.servlet.http.HttpSession;
 
