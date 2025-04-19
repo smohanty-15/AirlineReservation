@@ -38,6 +38,7 @@ public class UserController {
 		return "user/RegisterFormUser";
 	}
 
+
 	@PostMapping("/registeruser")
 	public String registerUser(@ModelAttribute("user") User user, HttpSession session) {
 
