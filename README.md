@@ -5,4 +5,6 @@ Dont need to create table manually , hibernate will automatically create the tab
 Only you have to write query for the database creation.
   --   Create Database airlinedb ;
 
+Here i am using MySQL for database , considering the username and password as "root" and "root". 
+
   
