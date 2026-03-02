@@ -40,7 +40,7 @@ public class Booking {
 	private String passanger4;
 	
 	@Column(unique = true)
-	private String pnr;
+	private String pnr; //.
 
 	@Enumerated(EnumType.STRING)
 	private BookingStatus bookingStatus = BookingStatus.CONFIRMED;
